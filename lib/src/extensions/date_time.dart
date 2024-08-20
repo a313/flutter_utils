@@ -1,6 +1,11 @@
 import 'package:flutter/material.dart';
+import 'package:intl/intl.dart';
 
 extension DateExtension on DateTime {
+  String format(DateFormat formatter) {
+    return formatter.format(this);
+  }
+
   DateTime dateWithoutSecond() {
     return DateTime(year, month, day, hour, minute);
   }
