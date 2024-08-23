@@ -5,7 +5,7 @@ export 'formatter/convert_vietnam_char.dart';
 export 'formatter/currency_formatter.dart';
 export 'formatter/date_input_formatter.dart';
 export 'formatter/max_number_formatter.dart';
-export 'formatter/numberic_formatter.dart';
+export 'formatter/numeric_formatter.dart';
 export 'formatter/otp_formatter.dart';
 export 'formatter/phone_formatter.dart';
 export 'formatter/suffix_formatter.dart';
